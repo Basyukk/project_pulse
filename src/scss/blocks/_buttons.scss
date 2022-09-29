@@ -13,4 +13,12 @@
     text-transform: uppercase;
 
     color: #ffffff;
+    &_main {
+        margin-top: 67px;
+        width: 303px;
+        height: 54px;
+
+        font-size: 16px;
+        line-height: 25px;
+    }
 }
