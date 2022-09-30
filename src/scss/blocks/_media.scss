@@ -1,0 +1,57 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .advantage__item {
+        width: 205px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 604px;
+    }
+    .header__phone {
+        font-size: 14px;
+    }
+    .advantage__item {
+        width: 200px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .promo__icons {
+        width: 380px;
+    }
+    .advantage__wrapper {
+        margin-top: 85px;
+        display: flex;
+        // flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .advantage__item {
+        width: 100%;
+    }
+    .button_main {
+        margin-top: 67px;
+        width: 250px;
+        height: 45px;
+        margin: 0 auto;
+        margin-top: 67px;
+    }
+    .promo__link {
+        font-size: 14px;
+        line-height: 25px;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+}

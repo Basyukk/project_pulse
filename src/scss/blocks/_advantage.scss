@@ -47,5 +47,9 @@
         line-height: 18px;
 
         color: #0d0d0d;
+        a {
+            text-decoration: underline;
+            color: rgba(255, 0, 0, 1);
+        }
     }
 }
